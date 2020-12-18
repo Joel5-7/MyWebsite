@@ -122,6 +122,13 @@ main {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
+/***report and cv box***/
+.box {
+    background: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
 /***Image background***/
 .bckimg {
     background: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(Img/me.jpg.jpeg);
