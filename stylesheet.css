@@ -161,6 +161,63 @@ h1 {
 h1:hover {
         color: rgb(255, 94, 1);
     }
+/***Contact***/
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(64, 65, 62);
+    height: 100vh;
+}
+input {
+    display: grid;
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 50px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+    border: 2px solid rgb(255, 94, 1);
+    color: #ffffff;
+    background-color: rgb(64, 65, 62);
+}
+input::placeholder {
+    color: #979797;
+    font-size: 1em;
+}
+input:hover {
+    box-shadow: 0 5px 20px rgb(255, 94, 1);
+}
+textarea {
+    background-color: rgb(64, 65, 62);
+    border: 2px solid rgb(255, 94, 1);
+    color: #ffffff;
+    width: 300px;
+    margin-bottom: 15px;
+       
+}
+textarea:hover {
+    box-shadow: 0 5px 20px rgb(255, 94, 1);
+}
+textarea::placeholder {
+    font-size: 1em;
+    color: #979797;
+}
+
+.Submit {
+    grid-column: 2;
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
 
 /***footer***/
 footer {
