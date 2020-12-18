@@ -81,7 +81,7 @@ body {
     background: rgb(255,255,255);
     top: 0;
     right: 0;
-    transition: transform .3s ease-in-out;
+    
 }
 .mobile-nav > a {
     position: absolute;
@@ -109,15 +109,20 @@ body {
 
 .mobile-nav:target {
     transform: translateY(0);
+    transition: transform 2s ease-in-out;
+   
 }
 /***main section***/
 main {
     grid-area: main;
+    color: rgb(46, 45, 45);
+    height: 100vh;
     justify-content: center;
     align-items: center;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
+/***Image background***/
 .bckimg {
     background: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(Img/me.jpg.jpeg);
     background-size: cover;
@@ -149,12 +154,6 @@ h1 {
 h1:hover {
         color: rgb(255, 94, 1);
     }
-
-
-
-
-
-
 
 /***footer***/
 footer {
