@@ -122,6 +122,47 @@ main {
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
 }
+/***Portfolio***/
+.portfolio {
+    display: grid;
+    height: 100%;
+    padding: 50px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.portfolio-item {
+    background: rgb(252, 127, 55);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-item.small {
+    grid-row: span 3;
+    grid-column: span 1;
+}
+.portfolio-item.tall {
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.portfolio-item.wide {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.portfolio-item.medium {
+    grid-row: span 1;
+    grid-column: span 2;
+}
+.portfolio-item.large {
+    grid-row: span 1;
+    grid-column: span 1;
+} 
+
+
+
+
 /***report and cv box***/
 .box {
     background: rgb(255, 255, 255);
