@@ -157,10 +157,93 @@ main {
 }
 .portfolio-item.large {
     grid-row: span 1;
-    grid-column: span 1;
+    grid-column: span 1;  
 } 
-
-
+/***images for portfolio boxes***/
+.one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(./Img/CSY1019.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(46, 45, 45);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    transition: all ease-in-out 300ms;
+}
+.one:hover {
+    background-blend-mode: none;
+    background-position: center;
+    background-size: 150%;
+}
+.two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(./Img/CSY1017.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-color: rgb(46, 45, 45);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    transition: all ease-in-out 300ms;
+}
+.two:hover {
+    background-blend-mode: none;
+    background-position: center;
+    background-size: 150%;
+}
+.three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(./Img/CSY1014.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(46, 45, 45);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    transition: all ease-in-out 300ms;
+}
+.three:hover {
+    background-blend-mode: none;
+    background-position: center;
+    background-size: 150%;
+}
+.four {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(./Img/CSY1018.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(46, 45, 45);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    transition: all ease-in-out 300ms;
+}
+.four:hover {
+    background-blend-mode: none;
+    background-position: bottom;
+    background-size: 150%;
+}
+.five {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(./Img/CSY1026.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(46, 45, 45);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    transition: all ease-in-out 300ms;
+}
+.five:hover {
+    background-blend-mode: none;
+    background-position: center;
+    background-size: 150%;
+}
+.six {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(./Img/CSY1020.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(46, 45, 45);
+    border-radius: var(--main-radius);
+    padding-top: var(--main-padding);
+    transition: all ease-in-out 300ms;
+}
+.six:hover {
+    background-blend-mode: none;
+    background-position: center;
+    background-size: 150%;
+}
 
 
 /***report and cv box***/
@@ -170,7 +253,7 @@ main {
     height: 100%;
     margin: auto;
 }
-/***Image background***/
+/***Image background homepage***/
 .bckimg {
     background: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(Img/me.jpg.jpeg);
     background-size: cover;
