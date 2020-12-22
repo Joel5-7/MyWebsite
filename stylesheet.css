@@ -29,6 +29,15 @@ header {
     height: 1%;
     grid-area: header;
 }
+p {
+    white-space: pre-line;
+    margin-left: 10px;
+    font-size: 1em;
+}
+h3 {
+    margin-top: 15px;
+    margin-bottom: 5px ;
+}
 /***Navigation***/
 /***Creating a burger menu***/
 #burger {
@@ -192,7 +201,6 @@ main {
     transition: all ease-in-out 300ms;
 }
 .one:hover {
-    background-blend-mode: none;
     background-position: center;
     background-size: 150%;
 }
@@ -206,7 +214,6 @@ main {
     transition: all ease-in-out 300ms;
 }
 .two:hover {
-    background-blend-mode: none;
     background-position: center;
     background-size: 150%;
 }
@@ -220,7 +227,6 @@ main {
     transition: all ease-in-out 300ms;
 }
 .three:hover {
-    background-blend-mode: none;
     background-position: center;
     background-size: 150%;
 }
@@ -234,7 +240,6 @@ main {
     transition: all ease-in-out 300ms;
 }
 .four:hover {
-    background-blend-mode: none;
     background-position: bottom;
     background-size: 150%;
 }
@@ -248,7 +253,6 @@ main {
     transition: all ease-in-out 300ms;
 }
 .five:hover {
-    background-blend-mode: none;
     background-position: center;
     background-size: 150%;
 }
@@ -262,7 +266,6 @@ main {
     transition: all ease-in-out 300ms;
 }
 .six:hover {
-    background-blend-mode: none;
     background-position: center;
     background-size: 150%;
 }
@@ -331,6 +334,7 @@ h4 {
 .achievement {
     margin-top: 20px;
 }
+
 /***report***/
 .box {
     background: rgb(64, 65, 62);
@@ -344,7 +348,7 @@ h3 {
 }
 /***Image background homepage***/
 .bckimg {
-    background: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.541) ), url(Img/me.jpg.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.5) ), url(Img/me.jpg.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -354,10 +358,10 @@ h3 {
 
 h1 {
  color: rgb(255, 255, 255);
- margin-top: 20%;
+ margin-top: 15%;
  margin-left: 20%;
  text-decoration: none;
- font-family: 'Times New Roman', Times, serif;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  animation: type 3s steps(33);
  overflow: hidden;
  white-space: nowrap;
@@ -371,9 +375,7 @@ h1 {
             width: 30ch;
         }
     } 
-h1:hover {
-        color: rgb(255, 94, 1);
-    }
+
 /***Contact***/
 form {
     display: flex;
