@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 :root {
     --main-radius: 5px;
@@ -332,10 +333,14 @@ h4 {
 }
 /***report***/
 .box {
-    background: rgb(255, 255, 255);
+    background: rgb(64, 65, 62);
     width: 50%;
     height: 100%;
     margin: auto;
+}
+h3 {
+    color: rgb(255,255,255);
+    margin-left: 10px;
 }
 /***Image background homepage***/
 .bckimg {
