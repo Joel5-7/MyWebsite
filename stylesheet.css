@@ -33,11 +33,19 @@ p {
     white-space: pre-line;
     margin-left: 10px;
     font-size: 1em;
+    line-height: 20px;
+    text-align: start;
 }
 h3 {
     margin-top: 15px;
     margin-bottom: 5px ;
 }
+a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 94, 1) ;
+    margin: 10px;
+   }
 /***Navigation***/
 /***Creating a burger menu***/
 #burger {
@@ -289,7 +297,7 @@ main {
 }
 h2, p, ul, li {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255,255,255);
+    color: rgba(255, 255, 255, 0.801);
 }
 .basic-information {
     padding: 20px 10px 20px 10px;
@@ -310,9 +318,6 @@ h2, p, ul, li {
     margin-bottom: 10px;
     margin-top: 5px;
     border-radius: 5px;
-}
-p {
-    margin-bottom: 5px;
 }
 li {
     margin-bottom: 5px;
@@ -344,7 +349,131 @@ h4 {
 }
 h3 {
     color: rgb(255,255,255);
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.box2    {
+    background: rgb(64, 65, 62);
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+}
+.box3 {
+    background: rgb(64, 65, 62);
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+}
+.box4 {
+    background: rgb(64, 65, 62);
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.dash1 {
+    height: 10px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.356);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+/***ScreenShots***/
+.ss {
+    display: grid;
+    height: 100%;
+    margin: 20px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.oof {
+    background: rgb(49, 49, 49);
+    color: rgba(255, 255, 255, 0.747);
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.portbefore {
+    background-image: url(./Img/Portbefore.PNG);
+    background-position: center;
+    background-size:  210px;
+    background-repeat: no-repeat;
+}
+.portafter {
+    background-image: url(./Img/Portafter.PNG);
+    background-position: center;
+    background-size: 210px;
+    background-repeat: no-repeat; 
+}
+.cvbefore {
+    background-image: url(./Img/CVBefore.PNG);
+    background-position: center;
+    background-size: 310px;
+    background-repeat: no-repeat; 
+}
+.cvafter {
+    background-image: url(./Img/CVAfter.PNG);
+    background-position: center;
+    background-size: 310px;
+    background-repeat: no-repeat; 
+}
+/***Validation Screenshots***/
+.vcss {
+    display: grid;
+    height: 100%;
+    margin: 20px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.voo {
+    background: rgb(49, 49, 49);
+    color: rgba(255, 255, 255, 0.747);
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.cssbefore {
+    background-image: url(./Img/CSSvalidation.PNG);
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.htmlhome {
+    background-image: url(./Img/indexvalidation.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+.htmlportfolio {
+    background-image: url(./Img/Portfoliovaldiation.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.htmlcontact {
+    background-image: url(./Img/Contactvalidation.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+.htmlcv {
+    background-image: url(./Img/CVvalidation.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+}
+/***References***/
+cite {
+    color:rgba(255, 255, 255, 0.801);
+    text-align: start;
+    white-space: nowrap;
+    font-style: italic;
+    font-size: 0.8em;
 }
 /***Image background homepage***/
 .bckimg {
