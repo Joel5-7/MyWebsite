@@ -394,8 +394,7 @@ h3 {
     font-style: italic;
     display: flex;
     justify-content: center;
-    align-items: top;
-}
+    }
 .homebefore {
     background-image: url(./Img/HomeBefore.PNG);
     background-position: center;
@@ -447,10 +446,15 @@ h3 {
     font-style: italic;
     display: flex;
     justify-content: center;
-    align-items: top;
-}
+   }
 .cssbefore {
     background-image: url(./Img/CSSvalidation.PNG);
+    background-position: center;
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+.cssafter {
+    background-image: url(./Img/CssAvalidation.PNG);
     background-position: center;
     background-size: 400px;
     background-repeat: no-repeat;
@@ -478,6 +482,12 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 250px;
+}
+.htmlreport {
+    background-image: url(./Img/HtmlAvalidation.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
 }
 /***References***/
 cite {
@@ -566,14 +576,6 @@ textarea::placeholder {
     grid-column: 2;
     font-size: 2em;
 }
-
-
-
-
-
-
-
-
 
 /***footer***/
 footer {
