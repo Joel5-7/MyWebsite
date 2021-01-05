@@ -396,6 +396,18 @@ h3 {
     justify-content: center;
     align-items: top;
 }
+.homebefore {
+    background-image: url(./Img/HomeBefore.PNG);
+    background-position: center;
+    background-size:  210px;
+    background-repeat: no-repeat;
+}
+.homeafter {
+    background-image: url(./Img/HomeAfter.PNG);
+    background-position: center;
+    background-size:  210px;
+    background-repeat: no-repeat;
+}
 .portbefore {
     background-image: url(./Img/Portbefore.PNG);
     background-position: center;
