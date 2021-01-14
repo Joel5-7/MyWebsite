@@ -662,3 +662,12 @@ footer {
         white-space: pre-line;
     }
 }
+@media screen and (max-width: 732px) {
+    p {
+        font-size: 0.55em;
+    }
+    cite {
+        font-size: 0.55em;
+        white-space: pre-line;
+    }
+}
