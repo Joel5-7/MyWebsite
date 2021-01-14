@@ -653,3 +653,12 @@ footer {
         color:rgb(255, 94, 1);
     }
 }
+@media screen and (max-width: 1160px) {
+    p {
+        font-size: 0.65em;
+    }
+    cite {
+        font-size: 0.55em;
+        white-space: pre-line;
+    }
+}
